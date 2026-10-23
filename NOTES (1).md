@@ -8,3 +8,5 @@
 | reverseArray | O(n) | O(n) | One loop. The new array grows with the input. |
 | removeDuplicates (ArrayList) | O(n²) | O(n) | list.contains loops inside the loop. |
 | removeDuplicatesHash (LinkedHashSet) | O(n) | O(n) | Set lookup is about 1 step. Two loops side by side. |
+| containsDuplicate (ArrayList) | O(n²) | O(n) | arr.contains loops inside the loop. |
+| containsDuplicate2 (HashSet) |O(n) | O(n) | Set lookup is about 1 step.Two loops side by side. |
