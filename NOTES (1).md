@@ -12,3 +12,5 @@
 | containsDuplicate2 (HashSet) |O(n) | O(n) | Set lookup is about 1 step.Two loops side by side. |
 | isValidAnagram (sorting version) | O(n log n) | O(n) | strings to arrays -> sorting -> comparing |
 | ArrayValidAnagram (counting version) | O(n) | O(1) | array is always 26 boxes |
+| isPalindrome (cleaning version) | O(n) | O(n) | clean the input , before checking |
+| isPalindromeSecond (skipping pointers) | O(n) | O(1) | two pointers, but let them skip junk characters as they move |
