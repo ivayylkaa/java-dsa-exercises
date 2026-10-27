@@ -10,3 +10,5 @@
 | removeDuplicatesHash (LinkedHashSet) | O(n) | O(n) | Set lookup is about 1 step. Two loops side by side. |
 | containsDuplicate (ArrayList) | O(n²) | O(n) | arr.contains loops inside the loop. |
 | containsDuplicate2 (HashSet) |O(n) | O(n) | Set lookup is about 1 step.Two loops side by side. |
+| isValidAnagram (sorting version) | O(n log n) | O(n) | strings to arrays -> sorting -> comparing |
+| ArrayValidAnagram (counting version) | O(n) | O(1) | array is always 26 boxes |
