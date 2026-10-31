@@ -15,6 +15,7 @@
 | isPalindrome (cleaning version) | O(n) | O(n) | clean the input , before checking |
 | isPalindromeSecond (skipping pointers) | O(n) | O(1) | two pointers, but let them skip junk characters as they move |
 | Best Time to Buy and Sell Stock | O(n) | O(1) | One loop.Only int variables created. |
+| Move Zeroes | O(n) | O(1) | insertPos = where the next non-zero goes, then swap |
 
 # Mistakes 
 | Task | Bug | Fix |
