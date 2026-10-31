@@ -14,8 +14,9 @@
 | ArrayValidAnagram (counting version) | O(n) | O(1) | array is always 26 boxes |
 | isPalindrome (cleaning version) | O(n) | O(n) | clean the input , before checking |
 | isPalindromeSecond (skipping pointers) | O(n) | O(1) | two pointers, but let them skip junk characters as they move |
-| Best Time to Buy and Sell Stock | O(n) | O(1) | One loop.Only int variables created. |
+| Best Time to Buy and Sell Stock | O(n) | O(1) | One loop.Only int variables created |
 | Move Zeroes | O(n) | O(1) | insertPos = where the next non-zero goes, then swap |
+| Missing Number | O(n) | O(n) | the set is “what I have”, the loop 0..n is “what should be there” |
 
 # Mistakes 
 | Task | Bug | Fix |
