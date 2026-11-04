@@ -18,7 +18,7 @@
 | Move Zeroes | O(n) | O(1) | insertPos = where the next non-zero goes, then swap |
 | Missing Number | O(n) | O(n) | the set is “what I have”, the loop 0..n is “what should be there” |
 | Valid Parentheses| O(n) | O(n) | opening = push, closing = check the top and pop |
-
+| Unique | O(n) | O(n) | 2 loops but not nested , HashMap stores up to $n$ unique characters |
 # Mistakes 
 | Task | Bug | Fix |
 |---------|--------|--------|
