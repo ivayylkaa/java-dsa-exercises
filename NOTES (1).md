@@ -19,6 +19,8 @@
 | Missing Number | O(n) | O(n) | the set is “what I have”, the loop 0..n is “what should be there” |
 | Valid Parentheses| O(n) | O(n) | opening = push, closing = check the top and pop |
 | Unique | O(n) | O(n) | 2 loops but not nested , HashMap stores up to $n$ unique characters |
+|Binary Search | O(log n) | O(1) | O(log n) because it have a loop but he divide the steps, time grow slower , when input grow, if we have 1000 numbers its about 10 steps if we have 1 000 000 its about 20 steps |
+
 # Mistakes 
 | Task | Bug | Fix |
 |---------|--------|--------|
