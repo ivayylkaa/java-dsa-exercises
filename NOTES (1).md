@@ -21,6 +21,9 @@
 | Unique | O(n) | O(n) | 2 loops but not nested , HashMap stores up to $n$ unique characters |
 |Binary Search | O(log n) | O(1) | O(log n) because it have a loop but he divide the steps, time grow slower , when input grow, if we have 1000 numbers its about 10 steps if we have 1 000 000 its about 20 steps |
 |Single Number (HashMap) | O(n) | O(n) | We create a HashMap where each key is a number and its value is the number of times it appears, then return the key whose value is 1 |
+| IntersectionOfTwoArrays | O(n + m) | O(n + m) | T: O(n + m) — We traverse both input arrays 
+S: O(n + m) — We use HashSets and an array that can grow with the input sizes. |
+
 
 # Mistakes 
 | Task | Bug | Fix |
