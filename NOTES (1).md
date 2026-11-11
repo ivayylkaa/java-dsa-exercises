@@ -23,9 +23,11 @@
 |Single Number (HashMap) | O(n) | O(n) | We create a HashMap where each key is a number and its value is the number of times it appears, then return the key whose value is 1 |
 | IntersectionOfTwoArrays | O(n + m) | O(n + m) | T: O(n + m) — We traverse both input arrays 
 S: O(n) — Because we use nums1 array in the set |
+| MajorityElement | O(n) | O(n) | two loops but not nested , hashMap grows with the input |
 
 
 # Mistakes 
 | Task | Bug | Fix |
 |---------|--------|--------|
 |Best Time to Buy and Sell Stock | maxProfit was replaced by the last profit each time. The last profit is not always the biggest |  Math.max(maxProfit, newProfit). Then the best value never goes down |
+|MajorityElement | counter++ | counter+=1 or counter+1 |
