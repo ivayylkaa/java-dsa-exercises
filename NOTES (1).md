@@ -24,6 +24,8 @@
 | IntersectionOfTwoArrays | O(n + m) | O(n + m) | T: O(n + m) — We traverse both input arrays 
 S: O(n) — Because we use nums1 array in the set |
 | MajorityElement | O(n) | O(n) | two loops but not nested , hashMap grows with the input |
+| RansomNote | O(n+m) | O(k) | k = different letters , the memory depends on the number of distinct letters, not on the length of the string |
+
 
 
 # Mistakes 
