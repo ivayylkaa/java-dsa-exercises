@@ -27,7 +27,8 @@ S: O(n) — Because we use nums1 array in the set |
 | RansomNote | O(n+m) | O(k) | k = different letters , the memory depends on the number of distinct letters, not on the length of the string |
 | FirstUniqueCharacter | O(n) | O(k) | the second loop we use string and not the map so we can guarantee the order | 
 | ReverseString | O(n) | O(1) | O(n) because  loop make n/2 steps |
-
+| MergeSortedArray | O(n) | O(1) | Space:O(1) because we don't have any variable growing with the input  |
+| SortedSquares | O(n) | O(n) | Space: O(n) because we made an array which grows with the input |
 
 # Mistakes 
 | Task | Bug | Fix |
