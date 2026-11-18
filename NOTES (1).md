@@ -29,6 +29,8 @@ S: O(n) — Because we use nums1 array in the set |
 | ReverseString | O(n) | O(1) | O(n) because  loop make n/2 steps |
 | MergeSortedArray | O(n) | O(1) | Space:O(1) because we don't have any variable growing with the input  |
 | SortedSquares | O(n) | O(n) | Space: O(n) because we made an array which grows with the input |
+| ContainsDuplicateII | O(n) | O(n) | Space:O(n) because we made an HashMap which grows with the input array |
+
 
 # Mistakes 
 | Task | Bug | Fix |
